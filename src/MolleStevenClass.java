@@ -19,9 +19,9 @@ public class MolleStevenClass {
 	public int molleMet(int s,int f)
 	{
 		int r = 0;
-		for(int i=1;i<f;i++)
+		for(int i=s;i<f;i++)
 		{
-			r = r + r;
+			r = s * f * i;
 		}
 		return r;
 	}
