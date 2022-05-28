@@ -16,6 +16,13 @@ public class MolleStevenClass {
 	 * @param f = indifce finale
 	 * @return r = intervalli
 	 */
+	
+	
+	/**
+	 * L'errore era nell'impostare l'indice uguale a 1
+	 * mettendolo l'indice "i" uguale all'intervallo iniziale
+	 * e moltiplicando per r si ottiene il valore corretto
+	 */
 	public int molleMet(int s,int f)
 	{
 		int r = 0;
